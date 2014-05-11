@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>1</integer>
+	<key>Extension Name</key>
+	<string>Ruby on Rails docs search</string>
+	<key>Extension Identifier</key>
+	<string>ip82.popclip.extension.ruby-on-rails-docs-search</string>
+	<key>Extension Description</key>
+	<string>Open http://apidock.com in a web browser with the selected text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://apidock.com/rails/search?query={popclip text}&amp;commit=Search</string>
+			<key>Image File</key>
+			<string>rails_api.png</string>
+			<key>Title</key>
+			<string>Ruby on Rails docs search</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
